@@ -1,0 +1,10 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+Contract_address.txt
+
+#Hardhat files
+cache
+artifacts
