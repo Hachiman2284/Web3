@@ -1,0 +1,43 @@
+0x7e63aF1A8d410BC0b25C45808159023a40162c80
+
+Graph command for subgraph:
+
+graph init --contract-name RandomWinnerGame --product hosted-service Hachiman2284/Learnweb3  --from-contract 0x7e63aF1A8d410BC0b25C45808159023a40162c80  --abi ./abi.json --network mumbai graph
+
+Output log for yarn deploy in graph folder:
+
+sibar@LAPTOP-79UOU8TD MINGW64 /d/Tesla/Learnweb3Dao/Junior/Chainlink/graph (master)
+$ yarn deploy
+yarn run v1.22.19
+$ graph deploy --node https://api.thegraph.com/deploy/ Hachiman2284/Learnweb3
+  Skip migration: Bump mapping apiVersion from 0.0.1 to 0.0.2
+  Skip migration: Bump mapping apiVersion from 0.0.2 to 0.0.3
+  Skip migration: Bump mapping apiVersion from 0.0.3 to 0.0.4
+  Skip migration: Bump mapping apiVersion from 0.0.4 to 0.0.5
+  Skip migration: Bump mapping apiVersion from 0.0.5 to 0.0.6
+  Skip migration: Bump manifest specVersion from 0.0.1 to 0.0.2
+  Skip migration: Bump manifest specVersion from 0.0.2 to 0.0.4
+√ Apply migrations
+√ Load subgraph from subgraph.yaml
+  Compile data source: RandomWinnerGame => build\RandomWinnerGame\RandomWinnerGame.wasm
+√ Compile subgraph
+  Copy schema file build\schema.graphql
+  Write subgraph file build\RandomWinnerGame\abis\RandomWinnerGame.json
+  Write subgraph manifest build\subgraph.yaml
+√ Write compiled subgraph to build\
+  Add file to IPFS build\schema.graphql
+                .. QmRbtEJcLveyLnbWuTEtEfZM1WgXARmPe1Vvv2CpBtETvc
+  Add file to IPFS build\RandomWinnerGame\abis\RandomWinnerGame.json
+                .. QmNnbyQ6GsJsm3AiDoyNn5ZAJ8RjABfmf7848n1xPuE2nG
+  Add file to IPFS build\RandomWinnerGame\RandomWinnerGame.wasm
+                .. Qmepm7FtLe7LR997dmA1B52pLKB774qAU9yMWYoNrStFjp
+√ Upload subgraph to IPFS
+
+Build completed: QmUyxfEoApSXABLZ9iD2QVSeVj1dUon1DGwBK6acS6SL2g
+
+Deployed to https://thegraph.com/explorer/subgraph/Hachiman2284/Learnweb3
+
+Subgraph endpoints:
+Queries (HTTP):     https://api.thegraph.com/subgraphs/name/hachiman2284/learnweb3
+
+✨  Done in 20.32s.

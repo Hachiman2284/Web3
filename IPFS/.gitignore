@@ -1,0 +1,13 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+metadata
+LW3punks
+
+#Hardhat files
+cache
+artifacts
+
+Contract_address.txt
